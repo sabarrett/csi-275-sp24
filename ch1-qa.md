@@ -24,6 +24,7 @@ a network, which doesn't really confuse me so much as intrigue me.
 on my system. Note that we're only using AF_INET.
 
 ```c
+/* from /include/sys/socket.h */
 #define AF_UNSPEC       0               /* unspecified */
 #define AF_UNIX         1               /* local to host (pipes) */
 #if !defined(_POSIX_C_SOURCE) || defined(_DARWIN_C_SOURCE)
