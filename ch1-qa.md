@@ -85,9 +85,33 @@ data across a network!
 **Q:** This isn't really a question for you, but why did the people
 making ipv4 choose the number of addresses that they did?
 
-**A:** I don't have an answer but I'd never thought about this and I
+**A:** ~I don't have an answer but I'd never thought about this and I
 think it's an interesting and worthwhile question. +2 bonus points on
-the next assignment to anyone who finds the answer.
+the next assignment to anyone who finds the answer.~
+
+**Bounty Claimed by _Simon Butler_!**
+
+Quote attributed to Vint Cerf explaining the back-of-the-envolope math
+they did to arrive at 32 bit IP addresses:
+
+> As we were thinking about the Internet (thinking well, this is going
+> to be some arbitrary number of networks all interconnected — we
+> don't know how many and we don't know how they'll be connected), but
+> national scale networks we thought "well, maybe there'll be two per
+> country" (because it was expensive: at this point Ethernet had been
+> invented but it wasn't proliferating everywhere, as it did do a few
+> years later).
+
+> Then we said "how many countries are there?" (two networks per
+> country, how many networks?) and we didn't have Google to ask, so we
+> guessed at 128 and that would be 2 times 128 is 256 networks (that's
+> 8 bits) and then we said "how many computers will there be on each
+> network?" and we said "how about 16 million?" (that's another 24
+> bits) so we had a 32-bit address which allowed 4.3 billion
+> terminations — which I thought in 1974/3 was enough to do the
+> experiment!
+
+https://networkengineering.stackexchange.com/a/7974
 
 ## what's up with encoding/decoding
 
